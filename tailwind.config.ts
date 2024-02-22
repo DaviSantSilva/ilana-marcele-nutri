@@ -6,7 +6,6 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/components/**/*.{js,ts,jsx,tsx,mdx}",
-
   ],
   theme: {
     extend: {
@@ -15,10 +14,18 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      colors:{
-        'ic-green': '#698474',
-        'ic-white': '#FCF8F3',
-      }
+      colors: {
+        "im-green": "#698474",
+        "im-green-hover": "#60786A",
+        "im-white": "#FCF8F3",
+        "im-peach": "#FFD3B6",
+        "im-grey": "#888888",
+      },
+      fontFamily: {
+        display: "Work Sans",
+        button: "Montserrat" ,
+        compose: "Inter",
+      },
     },
   },
   plugins: [],

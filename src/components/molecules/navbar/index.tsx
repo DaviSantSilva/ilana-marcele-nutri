@@ -28,10 +28,10 @@ export default function Example() {
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-                  {/* Current: "border-ic-green  text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
+                  {/* Current: "border-im-green  text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                   <a
                     href="#"
-                    className="inline-flex items-center border-b-2 border-ic-green  px-1 pt-1 text-sm font-medium text-gray-900"
+                    className="inline-flex items-center border-b-2 border-im-green  px-1 pt-1 text-sm font-medium text-gray-900"
                   >
                     Dashboard
                   </a>
@@ -57,7 +57,7 @@ export default function Example() {
               </div>
               <div className="-mr-2 flex items-center sm:hidden">
                 {/* Mobile menu button */}
-                <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-ic-green ">
+                <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-im-green ">
                   <span className="absolute -inset-0.5" />
                   <span className="sr-only">Open main menu</span>
                   {open ? (
@@ -72,11 +72,11 @@ export default function Example() {
 
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 pb-3 pt-2">
-              {/* Current: "bg-indigo-50 border-ic-green  text-ic-green ", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
+              {/* Current: "bg-indigo-50 border-im-green  text-im-green ", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
               <Disclosure.Button
                 as="a"
                 href="#"
-                className="block border-l-4 border-ic-green  bg-rose-100 py-2 pl-3 pr-4 text-base font-medium text-ic-green "
+                className="block border-l-4 border-im-green  bg-rose-100 py-2 pl-3 pr-4 text-base font-medium text-im-green "
               >
                 Dashboard
               </Disclosure.Button>
