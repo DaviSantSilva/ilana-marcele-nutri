@@ -15,8 +15,8 @@ export default function About() {
       </div>
       <div className="p-4 text-lg flex justify-start w-full px-10 lg:order-4 lg:col-start-2">
         <button
+          className="rounded-full text-sm lg:text-xl bg-im-green px-5 py-4 text-im-peach font-semibold shadow-sm hover:bg-im-green-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-im-green md:px-8 md:py-6"
           type="button"
-          className="bg-im-white font-sans text-base tracking-wide uppercase text-im-green cursor-pointer border-3 border-solid py-1 px-3 shadow shadow-im-green   relative select-none user-select-none"
         >
           Minha Trajetória
         </button>
